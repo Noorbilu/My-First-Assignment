@@ -51,6 +51,7 @@ nav ul a{
 .p1{
      text-align: center;
 }
+/* main styles*/
 .main{
     height:328px ;
     width:1140px ;
@@ -105,6 +106,9 @@ nav ul a{
 .avatar{
     display: flex;
 }
+.stars{
+    display: flex;
+}
 .ready{
     background-color: whitesmoke;
 
@@ -115,18 +119,32 @@ nav ul a{
 .Free{
     text-align: center;
 }
-.footer input[type="text"]{
+.input[type="text"]{
     background-color: whitesmoke;
     border-radius: 10px;
+}
+.info{
+    font-weight: bold;
 }
 .login{
     display: flex;
     justify-content: space-between;
     padding: 50px 200px;
 }
+/* footer styles*/
 .Logo{
     color: #4E47FF;
     font-weight: bold;
     font-size: 50px;
     text-align: center;
+}
+.area{
+    text-align: center;
+    color: #4e4d50;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    color: #4e4d50;
+    list-style: none;
 }
