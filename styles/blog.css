@@ -1,11 +1,11 @@
-.open-sans-normal {
+/* .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-}
+} */
 .header{
     background-image: url('../images/Hero-bg.png');
     padding: 10px 60px;
@@ -53,10 +53,8 @@ nav ul a{
 }
 /* main styles*/
 .main{
-    height:328px ;
     width:1140px ;
     margin: 0 auto;
-    margin-top: 130px;
     background-repeat: no-repeat;
     background-position:  right;
     padding: 20px 30px 20px 30px;
@@ -80,7 +78,6 @@ nav ul a{
     background-color: #d6d5f7;
     border-radius: 20px;
     padding: 50px 80px;
-    margin-top: 130px;
 }
 .skills{
     display: flex;
@@ -132,19 +129,42 @@ nav ul a{
     padding: 50px 200px;
 }
 /* footer styles*/
-.Logo{
-    color: #4E47FF;
-    font-weight: bold;
-    font-size: 50px;
-    text-align: center;
+.footer {
+  text-align: center;
+  padding: 60px 20px;
+  margin-top: 50px;
 }
-.area{
-    text-align: center;
-    color: #4e4d50;
+
+
+.footer-logo {
+  color: #4E47FF;
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 20px;
 }
-.list{
-    display: flex;
-    justify-content: space-around;
-    color: #4e4d50;
-    list-style: none;
+
+.footer-description {
+  color: #4e4d50;
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+}
+
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-menu li a {
+  text-decoration: none;
+  color: #4e4d50;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.footer-menu li a:hover {
+  color: #4E47FF;
 }
