@@ -115,6 +115,10 @@ nav ul a{
 .Free{
     text-align: center;
 }
+.footer input[type="text"]{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
 .login{
     display: flex;
     justify-content: space-between;
